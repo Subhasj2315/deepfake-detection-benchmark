@@ -129,10 +129,17 @@ Benchmarking & Robustness Analysis
 
 > Place the following figure in `Results/ffd_training_curves.png`
 
-``` markdown
+``` HTML
+<h2 align="center">Training Curves</h2>
+
 <p align="center">
-<img src="Results/ffd_training_curves.png" width="900">
+  <img src="Results/ffd_training_curves.png" alt="FFD Training Curves" width="900"/>
 </p>
+
+<p align="center">
+<i>Training and validation loss along with frame-level AUC during FFD model training.</i>
+</p>
+
 ```
 
 Training observations:
@@ -146,9 +153,15 @@ Training observations:
 
 # Test Set Evaluation
 
-``` markdown
+``` HTML
+<h2 align="center">Test Set Evaluation</h2>
+
 <p align="center">
-<img src="Results/ffd_test_evaluation.png" width="900">
+  <img src="Results/ffd_test_evaluation.png" alt="FFD Test Evaluation" width="900"/>
+</p>
+
+<p align="center">
+<i>ROC curve, confusion matrix, and performance metrics on the test set.</i>
 </p>
 ```
 
