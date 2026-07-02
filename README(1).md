@@ -129,7 +129,7 @@ Benchmarking & Robustness Analysis
 
 > Place the following figure in `Results/ffd_training_curves.png`
 
-``` HTML
+
 <h2 align="center">Training Curves</h2>
 
 <p align="center">
@@ -139,8 +139,6 @@ Benchmarking & Robustness Analysis
 <p align="center">
 <i>Training and validation loss along with frame-level AUC during FFD model training.</i>
 </p>
-
-```
 
 Training observations:
 
@@ -153,7 +151,7 @@ Training observations:
 
 # Test Set Evaluation
 
-``` HTML
+
 <h2 align="center">Test Set Evaluation</h2>
 
 <p align="center">
@@ -163,7 +161,7 @@ Training observations:
 <p align="center">
 <i>ROC curve, confusion matrix, and performance metrics on the test set.</i>
 </p>
-```
+
 
 ### Test ROC-AUC
 
@@ -183,11 +181,10 @@ majority of manipulated images.
 
 # Baseline Performance (XceptionNet)
 
-``` markdown
+
 <p align="center">
 <img src="Results/roc_xception.png" width="500">
 </p>
-```
 
   Metric         Value
   ----------- --------
@@ -201,11 +198,11 @@ majority of manipulated images.
 
 # Attention Map Visualization
 
-``` markdown
+
 <p align="center">
 <img src="Results/ffd_attention_maps.png" width="900">
 </p>
-```
+
 
 The attention branch highlights regions likely to contain manipulations.
 
@@ -220,11 +217,11 @@ cues rather than relying solely on global appearance.
 
 # Robustness Analysis
 
-``` markdown
+
 <p align="center">
 <img src="Results/Perturbation_Robustness_BarChart.png" width="850">
 </p>
-```
+
 
 Both models were evaluated under common image perturbations:
 
@@ -241,11 +238,11 @@ suggesting improved robustness and better generalization.
 
 # ROC Comparison
 
-``` markdown
+
 <p align="center">
 <img src="Results/ROC_Curve_Clean_Data.png" width="800">
 </p>
-```
+
 
 The ROC comparison demonstrates that while both approaches achieve
 excellent discrimination capability, FFD additionally provides
@@ -256,12 +253,11 @@ digital image forensics.
 
 # Installation
 
-``` bash
+
 git clone https://github.com/<your-username>/Deepfake-Detection.git
 cd Deepfake-Detection
 
 pip install torch torchvision timm opencv-python pandas numpy matplotlib scikit-learn
-```
 
 ------------------------------------------------------------------------
 
